@@ -1,4 +1,7 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .scroll-mt-20 {
   scroll-margin-top: 5rem;
 }
