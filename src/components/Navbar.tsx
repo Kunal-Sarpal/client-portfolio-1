@@ -19,7 +19,7 @@ const Navbar: React.FC = () => {
       <div className="max-w-6xl mx-auto flex justify-between items-center">
         {/* Logo */}
         <div className="h-12 w-20 overflow-hidden m-1 rounded border border-2">
-        <img  className="w-full h-full object-cover scale-180 " src="../public/visura.jpeg" alt="" />
+        <img  className="w-full h-full object-cover scale-180 " src="https://i.ibb.co/qbYN4JL/visura.jpg" alt="" />
 
         </div>
 
