@@ -15,10 +15,13 @@ const Navbar: React.FC = () => {
   const navItems = ["home", "services", "about", "contact"];
 
   return (
-    <nav className="bg-white text-zinc-900 p-4 shadow-md sticky top-0 z-50">
+    <nav className="bg-white text-zinc-900  shadow-md sticky top-0 z-50">
       <div className="max-w-6xl mx-auto flex justify-between items-center">
         {/* Logo */}
-        <h1 className="text-2xl font-bold">Creative Studio</h1>
+        <div className="h-12 w-20 overflow-hidden m-1 rounded border border-2">
+        <img  className="w-full h-full object-cover scale-180 " src="../public/visura.jpeg" alt="" />
+
+        </div>
 
         {/* Hamburger Icon for mobile */}
         <div
@@ -81,9 +84,9 @@ const Navbar: React.FC = () => {
                 {item}
               </li>
             ))}
-            <button className="bg-zinc-900 hover:bg-zinc-700 px-4 py-2 rounded-xl text-sm text-white">
+            {/* <button className="bg-zinc-900 hover:bg-zinc-700 px-4 py-2 rounded-xl text-sm text-white">
               Get Quote
-            </button>
+            </button> */}
           </ul>
         </div>
       )}

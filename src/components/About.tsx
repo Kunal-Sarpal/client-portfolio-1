@@ -9,7 +9,7 @@ const About: React.FC = () => {
         <div>
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             About Our <br />
-            Creative Studio
+            Visura Studio
           </h2>
           <p className="text-gray-600 mb-6">
             We are a passionate team of multimedia professionals dedicated to bringing your creative vision to life.

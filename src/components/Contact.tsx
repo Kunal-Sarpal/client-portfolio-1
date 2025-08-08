@@ -16,37 +16,37 @@ const Contact: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 mt-10">
           {/* Left Side - Contact Info */}
           <div className="space-y-6">
-            <div className="flex items-center gap-4 p-5 border border-zinc-300 rounded-xl">
+            <div className="flex items-center gap-4 p-5 shadow border border-zinc-300 rounded-xl">
               <div className="border p-2 rounded-full bg-zinc-900">
                 <MdEmail size={28} className="text-zinc-100" />
               </div>
               <div>
                 <p className="font-bold text-start">Email Us</p>
-                <p className="text-sm text-gray-800">hello@yourstudio.com</p>
+                <p className="text-sm text-gray-800">eastersiddu@visurastudios.in</p>
               </div>
             </div>
-            <div className="flex items-center gap-4 p-5 border border-zinc-300 rounded-xl">
+            <div className="flex items-center gap-4 p-5 shadow border border-zinc-300 rounded-xl">
               <div className="border p-2 rounded-full bg-zinc-900">
                 <MdPhone size={28} className="text-zinc-100" />
               </div>
               <div>
                 <p className="font-bold text-start">Call Us</p>
-                <p className="text-sm text-gray-800">+91-9876543210</p>
+                <p className="text-sm text-gray-800 text-start">+91-9553337558</p>
               </div>
             </div>
-            <div className="flex items-center gap-4 p-5 border border-zinc-300 rounded-xl">
+            <div className="flex items-center gap-4 p-5 shadow border border-zinc-300 rounded-xl">
               <div className="border p-2 rounded-full bg-zinc-900">
                 <MdLocationOn size={28} className="text-zinc-100" />
               </div>
               <div>
                 <p className="font-bold text-start">Visit Us</p>
-                <p className="text-sm text-gray-800">New Delhi, India</p>
+                <p className="text-sm text-gray-800 text-start">LPU, Phagwara - Delhi G.T. Road, Phagwara, Punjab (India)</p>
               </div>
             </div>
           </div>
 
           {/* Right Side - Contact Form */}
-          <form className="border border-zinc-300 rounded-xl p-6 space-y-4">
+          <form className="border shadow border-zinc-300 rounded-xl p-6 space-y-4">
             <div className="flex items-center gap-2 mb-4">
               <BiMessageSquareDetail size={24} className="text-zinc-900" />
               <h3 className="text-lg font-semibold">Send us a message</h3>

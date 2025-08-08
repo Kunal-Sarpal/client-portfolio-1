@@ -65,9 +65,9 @@ const Services: React.FC = () => {
           ))}
         </div>
 
-        <button className="bg-zinc-800 hover:bg-zinc-900 text-white px-6 py-3 rounded-md transition">
+        {/* <button className="bg-zinc-800 hover:bg-zinc-900 text-white px-6 py-3 rounded-md transition">
           Get Custom Quote
-        </button>
+        </button> */}
       </div>
     </section>
   );
