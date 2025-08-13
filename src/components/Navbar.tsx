@@ -18,9 +18,9 @@ const Navbar: React.FC = () => {
       <div className="max-w-6xl mx-auto flex justify-between items-center px-4 py-3 md:py-4">
         
         {/* Logo */}
-        <div className="font-extrabold text-lg md:text-xl tracking-tight text-zinc-900 cursor-pointer">
+        <div className="font-extrabold text-sm md:text-xl tracking-tight text-zinc-900 cursor-pointer">
           Visura Studio <span className="text-amber-600">—</span>{" "}
-          <span className="font-light">The art of visual perfection</span>
+          <span className="font-light ">The art of visual perfection</span>
         </div>
 
         {/* Hamburger Icon */}

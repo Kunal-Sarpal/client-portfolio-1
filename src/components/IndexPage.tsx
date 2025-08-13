@@ -11,11 +11,11 @@ const IndexPage = () => {
   return (
     <div
       ref={containerRef}
-      className="w-full h-screen scale-80 md:scale-100  overflow-hidden   flex items-center justify-center"
+      className="w-full h-fit md:h-screen  md:scale-100  overflow-hidden   flex items-center justify-center"
     >
       <img
         ref={imgRef}
-        className="h-full object-cover"
+        className="h-full object-contain"
         src={visuraImg}
         alt="Visura"
       />
